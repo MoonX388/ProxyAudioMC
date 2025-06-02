@@ -1,0 +1,54 @@
+name: ProxyAudioMC
+version: 1.0-SNAPSHOT
+main: com.moonx.bukkit.ProxyAudioMCBukkit
+api-version: 1.13
+load: STARTUP
+authors: [ MoonX ]
+description: A cross-platform Minecraft plugin to play custom audio, music, and sound effects from proxy or server to players. Supports Spigot, Paper, BungeeCord, and Velocity.
+website: https://proxyaudiomc.com
+softdepend: [ProtocolLib]
+
+commands:
+  channel:
+    aliases: [ch, vch, proxychannel]
+    description: Join or manage audio channels
+    usage: /channel <join|leave|switch> [channelName]
+    permission: proxyaudiomc.channel
+
+  volume:
+    aliases: [setvolume, vol]
+    description: Adjust player voice chat volume
+    usage: /volume <0-100>
+    permission: proxyaudiomc.volume
+
+  proxyaudiomc:
+    aliases: [pam]
+    description: Base command for ProxyAudioMC (help and info)
+    usage: /proxyaudiomc <help|reload|version>
+    permission: proxyaudiomc.admin
+
+  mutemic:
+    aliases: [mm, mute]
+    description: Mute or unmute your mic
+    usage: /mutemic
+    permission: proxyaudiomc.mute
+
+  playaudio:
+    description: Play an audio file
+    usage: /playaudio <filename>
+    permission: proxyaudiomc.play
+
+  stopaudio:
+    description: Stop currently playing audio
+    usage: /stopaudio
+    permission: proxyaudiomc.stop
+
+  volumeaudio:
+    description: Set volume of audio
+    usage: /volumeaudio <0-100>
+    permission: proxyaudiomc.volume
+
+  listaudio:
+    description: List available audio files
+    usage: /listaudio
+    permission: proxyaudiomc.list

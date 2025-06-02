@@ -1,0 +1,6 @@
+com\moonx\ProxyAudioMC.class
+com\moonx\velocity\ProxyAudioMCVelocity.class
+com\moonx\bukkit\core\commands\BukkitMainCommand.class
+com\moonx\bukkit\ProxyAudioMCBukkit.class
+com\moonx\spigot\ProxyAudioMCSpigot.class
+com\moonx\ProxyAudioMC$1.class

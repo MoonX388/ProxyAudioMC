@@ -1,0 +1,10 @@
+{
+  "id": "proxyaudiomc",
+  "name": "ProxyAudioMC plugin for Velocity",
+  "version": "1.0-SNAPSHOT",
+  "description": "A cross-platform Minecraft plugin to play custom audio, music, and sound effects from proxy or server to players. Supports Spigot, Paper, BungeeCord, and Velocity.",
+  "url": "https://proxyaudiomc.com",
+  "authors": ["MoonX"],
+  "dependencies": ["ProtocolLib"],
+  "main": "com.moonx.proxyaudiomc.velocity.ProxyAudioMCVelocity"
+}
